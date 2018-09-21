@@ -1,7 +1,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "block_stack_auth/version"
+require "block_stack/auth/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "block_stack_auth"
